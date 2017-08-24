@@ -36,18 +36,7 @@ You can install the package through Composer.
 composer require spatie/laravel-glide
 ```
 
-You must install this service provider.
-
-```php
-
-// config/app.php
-
-'providers' => [
-    ...
-    Spatie\Glide\GlideServiceProvider::class,
-    ...
-];
-```
+The package will automatically register itself.
 
 This package also comes with a facade, which provides an easy way to generate images.
 
